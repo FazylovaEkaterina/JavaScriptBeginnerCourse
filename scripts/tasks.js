@@ -95,7 +95,7 @@ let ipi= +ip[i];
 let u= +(ipi.toString(2));
 let y= +(mask[i].toString(2));
 let k= y&u;
-//console.log("y ", y, " u ", u);
+
 	ip2[i]= +(k.toString(10));}
 }//console.log(ip2);
 //поиск широковещательного
